@@ -1,0 +1,16 @@
+1. mkdir afifaharyaalifiputrii
+2. cd afifaharyaalifiputrii
+3. mkdir sekolah
+4. mkdir kerja
+5. ls
+6. cd sekolah
+7. ni ijaazah.txt
+8. set-content -path .\ijaazah.txt -value 'Perkenalkan nama kami adalah Afifah Arya Alifi dan Putri. Kami berasal dari Asahan. Salam Kenal :D'
+9. get-content -path .\ijaazah.txt
+10. ni portofolio.txt
+11. set-content -path .\portofolio.txt -value 'Kami pernah bekerja pada beberapa perusahaan, salah satu diantaranya ialah perusahaan Sprite, perusahaan Bakso dan Perusahaan Maxicorn'
+12. set-location -path C:\Users\ACER\afifaharyaalifiputrii\kerja -PassThru
+13. ni cv.txt
+14. set-content -path .\cv.txt -value 'Perkenalkan nama kami adalah Afifah Arya Alifi dan Putri. Kami memiliki kegemaran bulu tangkis, baca buku, drakoran dan jalan-jalan'
+15. mv -path C:\Users\ACER\afifaharyaalifiputrii\sekolah\portofolio.txt -Destination C:\Users\ACER\afifaharyaalifiputrii\kerja
+16. ls
